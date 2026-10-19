@@ -1,6 +1,6 @@
 import json
 
-with open("imtixon3/olma/products.json", "r") as fayl:
+with open("imtixon3/products.json", "r") as fayl:
     mahsulotlar = json.load(fayl)
 
 nom = input("Mahsulot nomi: ")
